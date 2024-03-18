@@ -1,0 +1,17 @@
+N1=float(input("Escreva a P1 : " ))
+N2=float(input("Escreva a P2 : " ))
+N3=float(input("Escreva a P3 : " ))
+N4=float(input("Escreva a P4 : " ))
+NN= (N1+N2+N3+N4)/4
+floatNumber = NN
+intNumber = int(NN)
+rest = floatNumber % intNumber
+NA = rest + NN 
+if NN >= 6:
+  NA = int(NA)
+  print("Aprovado")
+  print(NA)
+else:
+  NA = int(NA)
+  print("Rejeitado")
+  print(NA)
